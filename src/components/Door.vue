@@ -1,7 +1,7 @@
 <template>
   <div class="door-area">
     <div class="door-frame" :class="{ selected: selected && !open }">
-      <Gift v-if="open && hasDift" />
+      <Gift v-if="open && hasGift" />
     </div>
     <div class="door" :class="{ open }" @click="selected = !selected">
       <div class="number" :class="{ selected }">{{ number }}</div>
