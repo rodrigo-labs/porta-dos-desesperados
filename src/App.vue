@@ -1,12 +1,18 @@
 <template>
   <div id="app">
     <h1>Porta dos Deseperados</h1>
-    <h3>glu glu - yeah yeah</h3>
+    <!-- <h3>glu glu - yeah yeah</h3> -->
+    <Gift></Gift>
   </div>
 </template>
 
 <script>
-export default {};
+import Gift from "./components/Gift";
+
+export default {
+  name: "App",
+  components: { Gift }
+};
 </script>
 
 <style>
