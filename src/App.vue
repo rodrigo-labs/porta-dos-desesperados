@@ -2,16 +2,16 @@
   <div id="app">
     <h1>Porta dos Deseperados</h1>
     <!-- <h3>glu glu - yeah yeah</h3> -->
-    <Gift></Gift>
+    <Door number="1" :hasGift="false" />
   </div>
 </template>
 
 <script>
-import Gift from "./components/Gift";
+import Door from "./components/Door";
 
 export default {
   name: "App",
-  components: { Gift }
+  components: { Door }
 };
 </script>
 
